@@ -5,11 +5,11 @@
 const char* ssid = "Vimal";
 const char* password = "1234567890";
 
-const char* mqtt_server = "3656f594e9f84d6d93905378cb08a49a.s1.eu.hivemq.cloud";
+const char* mqtt_server = ".s1.eu.hivemq.cloud";
 const int mqtt_port = 8883;
 
-const char* mqtt_user = "Esp8266project";
-const char* mqtt_pass = "Esp8266project@123";
+const char* mqtt_user = "*******************";
+const char* mqtt_pass = "*******************";
 
 WiFiClientSecure espClient;
 PubSubClient client(espClient);
